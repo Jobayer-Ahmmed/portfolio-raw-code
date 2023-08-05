@@ -1,0 +1,116 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* nav start */
+    .header{
+        background-size: 65px;
+    }
+    nav{
+        padding-top: 50px;
+        margin-left: 130px;
+        margin-right: 80px;
+        
+    
+    }
+    nav ul {
+        width: 400px;
+    }
+    nav li{
+        margin-right: 0;
+    }
+    .banner{
+        padding-left: 130px;
+        align-items: end;
+    }
+    .banner_content{
+        width: 50%;
+    }
+    .greeting{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    .banner_title{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .btn_container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        }
+    .banner_photo{
+        width: 55%;
+        padding-right: 20px;
+        background-image: url("../images/header_bg.png");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: contain;
+    }
+
+    .banner_photo img{
+        width: 80%;
+    }
+    /* nav end */
+    /* about section */
+    .about{
+        padding-right: 5%;
+        padding-left: 5%;
+
+    }
+    .info_title{
+        font-size: 16px;
+    }
+    .info_description{
+        font-size: 16px;
+    }
+    /* about section end */
+    /* what i do section start */
+    .what_i_do{
+        padding: 0 10%;
+    }
+
+        .what_i_do_description{
+            margin: 0;
+        }
+        .skills_container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+        .skill{
+            width: 40%;
+        }
+    /* what i do section end */
+    /* resume section start */
+    .resume{
+        padding: 18% 10% 5% 10%;
+    }
+        .resume_title{
+            margin-bottom: 8%;
+    }
+    /* resume section end */
+    /* footer start */
+    footer{
+        padding: 10%;
+    }
+    .footer_parent{
+        width: 90%;
+    }
+    .lets_connect, .lets_message{
+       width: 100%;
+    }
+    footer .input, footer .text{
+        width: 100%;
+        height: 3rem;
+    }
+    footer .text{
+        height: 9rem;
+    }
+
+    footer .icon{
+        text-align: center;
+    }
+   /* footer end */
+
+
+}
